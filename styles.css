@@ -11,9 +11,10 @@ body {
 h1 {
   font-size: 96px;
   font-family: var(--heading-font-family);
+  line-height: 1.5;
 }
 h2 {
-  font-size: px;
+  font-size: 56px;
 }
 
 p {
@@ -51,4 +52,25 @@ p {
   padding: 15px 30px;
   color: var(--heading-color);
   border: 1px solid var(--heading-color);
+}
+.first-project-description,
+.second-project-description {
+  padding: 120px 60px;
+}
+@media (max-width: 960px) {
+  h1 {
+    font-size: 44px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 44px;
+  }
+  .header {
+    padding: 80px 20px;
+  }
+  .first-project-description,
+  .second-project-description {
+    padding: 0px;
+    text-align: center;
+  }
 }
