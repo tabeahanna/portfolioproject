@@ -52,17 +52,20 @@ nav a:hover {
 footer a {
   color: var(--heading-color);
   text-decoration: none;
+  margin: 0 20px;
+  padding: 10px 14px;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  background-color: var(--secondary-color);
 }
 footer a:hover {
   color: #272142;
 }
 footer i {
-  font-size: 24px;
+  font-size: 18px;
 }
-footer {
-  background: var(--secondary-color);
-  padding: 40px 0;
-}
+
 .content-container {
   padding: 15px 20px;
 }
