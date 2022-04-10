@@ -49,6 +49,16 @@ nav a:hover {
   color: var(--heading-color);
   transition: all 100ms ease-in-out;
 }
+footer a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+footer a:hover {
+  color: #272142;
+}
+footer i {
+  font-size: 24px;
+}
 .content-container {
   padding: 15px 20px;
 }
